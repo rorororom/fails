@@ -1,6 +1,17 @@
 #include "functions.h"
+#include <stdio.h>
+#include <math.h>
 
-int comparison0(int a)
+#define EPS 0.000001
+enum root{
+    NO_ROOTS,
+    ONE_ROOTS,
+    TWO_ROOTS,
+    INFINITY_ROOTS
+};
+
+
+int comparison0(float a)
 {
     if (abs(a - 0) < EPS) return 1;// если число равно 0, то выводим истину return 1;
     return 0; // иначе ложь
