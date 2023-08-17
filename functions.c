@@ -1,3 +1,5 @@
+#include "functions.h"
+
 int comparison0(int a)
 {
     if (abs(a - 0) < EPS) return 1;// если число равно 0, то выводим истину return 1;
