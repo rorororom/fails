@@ -2,6 +2,7 @@
 #include <math.h>
 #include "functions.h"
 
+
 #define EPS 0.000001
 enum root{
     NO_ROOTS,
